@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+
+  <body>
+    <h1>Object</h1>
+
+    <h2>create</h2>
+    <script type="text/javascript">
+      var coworkers = {
+        "programmer": "egoing",
+        "designer":"leezche"
+      };
+      document.write("programmer:"+coworkers.programmer+'<br>'); // 객체는 순서상관없이 저장가능
+      document.write("designer:"+coworkers.designer+"<br>");
+      coworkers.bookkeeper = "duru"
+      document.write("bookkeeper : "+coworkers.bookkeeper);
+      coworkers["Data Scientist"]= "taeho";
+      document.write("Data Scientist : "+ coworkers["Data Scientist"]);
+
+
+    </script>
+  </body>
+
+</html>
