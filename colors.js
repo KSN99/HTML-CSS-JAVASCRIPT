@@ -11,10 +11,12 @@ var Links ={
 }
 var body = {
 setColor:function (color){
-document.querySelector('body').style.color = color;
+//document.querySelector('body').style.color = color;
+$('body').css('color',color);
 },
 setBackgroundColor:function (color){
-document.querySelector('body').style.backgroundColor = color; // document<<객체
+$('body').css('color',color);
+// document.querySelector('body').style.backgroundColor = color; // document<<객체
 // querySelector 는 객체에 속해있는 함수 즉, 메소드 (method)라고한다.
 }
 }
